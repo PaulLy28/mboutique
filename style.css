@@ -20,7 +20,6 @@ header {
 header img {
     position: absolute;
     margin: 20px 40px;
-  /*  *transform: translate(0, -50%)*/
 }
 
 /*nav unlisted items formatting*/
@@ -29,24 +28,13 @@ nav ul {
     padding: 0;
     position: absolute;
     right: 50px;
-    top:50%;
-    transform: translate(0, -50%)
+    top: 30px;
 }
-
-/*nav {
-    float: right;
-    margin: 10px 100px;
-    padding-right: 50px;
-    width: 50%;
-}*/
 
 /*nav listed items formatting*/
 nav ul li {
     list-style-type: none;
-    display: inline-block; /*maybe just inline*/
-/*   * text-transform: uppercase;
-   * text-decoration: none;
-    font-size: 16px;*/
+    display: inline;
     padding: 2em;
 
 }
@@ -96,6 +84,7 @@ h3 {
 .date-macaron {
     box-sizing: border-box;
     padding: 0 15px;
+    width: 126px;
     height: 33px;
     padding-top: 5px;
 }
@@ -142,7 +131,7 @@ footer {
     position: relative;
 }
 
-#footer > div {
+#footer div {
     display: inline;
     position: absolute;
 }
@@ -151,13 +140,9 @@ footer {
     margin:0 10px;
 }
 
-#mail {
-    left: 0;
-}
-
 #phone {
-    left: 50%;
-    transform: translate(-50%);
+    left: 40%;
+
 }
 
 #follow-us {
