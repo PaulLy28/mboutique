@@ -167,10 +167,6 @@ input[type=text], textarea, input[type=submit] {
     padding: 10px;
     margin-bottom: 25px;
 }
-/*change placeholder font color*/
-input[type=text]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: #6a6969;
-}
 
 input[type=text], textarea {
     width: 100%;
@@ -237,14 +233,9 @@ footer {
 
 /*mobile formatting*/
 
-@media screen and (max-width: 375px) {
-
+@media screen and (max-width: 675px) {
     .container {
-        width: 100%;
-        margin: 0;
-        position: absolute;
-        left: 0;
-        top: 0;
+        width: 70%;
+
     }
 }
-
