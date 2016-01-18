@@ -234,3 +234,9 @@ footer {
 #copyright {
     padding-top: 10px;
     text-align: center;
+
+/*mobile formatting*/
+
+@media screen and (max-width: 627px) {
+    
+}
