@@ -237,6 +237,14 @@ footer {
 
 /*mobile formatting*/
 
-@media screen and (max-width: 627px) {
-    
+@media screen and (max-width: 375px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 }
+
