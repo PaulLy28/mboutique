@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #6a6969;
 }
-/*contains all content into a specified width*/
+/*contains all content into a specified width so that each section won't overflow out and will stay together*/
 .container {
     width: 1000px;
     margin: auto;
