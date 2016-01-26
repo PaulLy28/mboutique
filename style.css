@@ -66,7 +66,8 @@ h3 {
     margin-bottom: 40px;
     height: 140px;
 }
-/*the macaron display on the bottom*/
+/*the macaron display on the bottom. added position relative to help position the macaron image and the text correctly*/
+
 .day {
     float:left;
     width: 126px;
@@ -74,10 +75,12 @@ h3 {
     background-color: #fffabe;
     margin: 0 8px;
     font-size: 12px;
+    position: relative;
 }
 
-.date {
+.day > p {
     font-size: 14px;
+    margin-left: 10px;
 }
 
 /*formats the macaron images on the bottom*/
@@ -108,9 +111,11 @@ h3 {
     background-color: #c39005;
     color: white;
 }
-
+/*added position absolute so that the image can be positioned correctly from the text*/
 .date-macaron img {
     float: right;
+    position: absolute;
+    right: 2%;
 }
 
 /*footer*/
