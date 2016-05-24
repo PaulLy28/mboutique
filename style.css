@@ -74,10 +74,12 @@ h3 {
     background-color: #fffabe;
     margin: 0 8px;
     font-size: 12px;
+    position: relative;
 }
 
-.date {
+.day > p {
     font-size: 14px;
+    margin-left: 10px;
 }
 
 /*formats the macaron images on the bottom*/
@@ -111,6 +113,8 @@ h3 {
 
 .date-macaron img {
     float: right;
+    position: absolute;
+    right: 2%;
 }
 
 /*content our macarons page*/
