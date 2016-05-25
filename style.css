@@ -2,12 +2,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #6a6969;
-}
-/*contains all content into a specified width*/
-.container {
     width: 1000px;
     margin: auto;
 }
+/*contains all content into a specified width*/
+/*.container {
+    width: 1000px;
+    margin: auto;
+}*/
 
 /*header*/
 header {
@@ -140,9 +142,10 @@ h3 {
 }
 
 #content-gp {
-     background-image: url("assets/images/gifts-parties-background.png");
+/*     background-image: url("assets/images/gifts-parties-background.png");
      background-repeat: no-repeat;
-     padding: 40px 0;
+     padding: 40px 0;*/
+    background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
 }
 
 .pt {
@@ -194,7 +197,6 @@ input[type=submit] {
 #macaron-contact img {
     height: 80%;
     width: 80%;
-
 }
 
 /*footer*/
@@ -227,6 +229,7 @@ footer {
 @media screen and (max-width: 627px) {
     .container {
         width: 100%;
+        height: auto;
         margin: 0;
         position: absolute;
         left: 0;
@@ -236,7 +239,7 @@ footer {
     /* Header */
     header img {
         position: static;
-        transform: translate(65%, 0);
+        transform: translate(75%, 0);
         margin: auto;
         padding-top: 10px;
     }
@@ -259,9 +262,14 @@ footer {
     nav ul li a {
         font-size: 2.5vw;
     }
+    /*gifts % parties*/
+
+    #content-gp {
+        background: none;
+    }
 
     /* Contact Section */
-    #visit-us, #contact-us {
+    #visit-us, #contact-us, #contact-img img {
         width: 100%;
     }
 
