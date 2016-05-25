@@ -5,11 +5,6 @@ body {
     width: 1000px;
     margin: auto;
 }
-/*contains all content into a specified width*/
-/*.container {
-    width: 1000px;
-    margin: auto;
-}*/
 
 /*header*/
 header {
@@ -142,9 +137,6 @@ h3 {
 }
 
 #content-gp {
-/*     background-image: url("assets/images/gifts-parties-background.png");
-     background-repeat: no-repeat;
-     padding: 40px 0;*/
     background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
 }
 
