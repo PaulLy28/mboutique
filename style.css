@@ -262,16 +262,23 @@ footer {
     nav ul li a {
         font-size: 2.5vw;
     }
+    /*images below header*/
+    #visit-us, #contact-us, #contact-img img, .welcome img, #gifts img, #our-macarons img {
+        width: 100%;
+    }
+
     /*gifts % parties*/
 
-    #content-gp {
+    #content-gp, #content {
         background: none;
     }
 
-    /* Contact Section */
-    #visit-us, #contact-us, #contact-img img {
-        width: 100%;
+    #macarons img {
+        display: none;
     }
+
+    /* Contact Section */
+
 
     #macaron-contact {
         display: none;
