@@ -1,1 +1,297 @@
 /* Add your CSS here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    width: 1000px;
+    margin: auto;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 72px;
+    background-color: #fffabe;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    margin: 20px 40px;
+}
+
+/*nav unlisted items formatting*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+/*nav listed items formatting*/
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 2em;
+
+}
+/*nav links formatting*/
+nav ul li a {
+    font-size: 16px;
+    color: #515151;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #d42551;
+}
+
+/*content welcome*/
+
+h3 {
+    font-size: 20px;
+}
+
+#macarons img {
+    float: left;
+    margin: 100px 100px;
+}
+
+#schedule {
+    clear: both;
+    margin-bottom: 40px;
+    height: 140px;
+}
+/*the macaron display on the bottom*/
+.day {
+    float:left;
+    width: 126px;
+    height:140px;
+    background-color: #fffabe;
+    margin: 0 8px;
+    font-size: 12px;
+    position: relative;
+}
+
+.day > p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*formats the macaron images on the bottom*/
+.date-macaron {
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 126px;
+    height: 33px;
+    padding-top: 5px;
+}
+
+#coconut {
+    background-color: #824603;
+    color: white;
+}
+
+#vanilla {
+    background-color: #df5277;
+    color: white;
+}
+
+#lemon {
+    background-color: #a2304e;
+    color: white;
+}
+
+#almond {
+    background-color: #c39005;
+    color: white;
+}
+
+.date-macaron img {
+    float: right;
+    position: absolute;
+    right: 2%;
+}
+
+/*content our macarons page*/
+#content {
+    background-image: url("assets/images/our-macarons-background.png");
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+
+#content h3 {
+    font-size: 20px;
+    margin: 35px 0;
+}
+
+#content ul p {
+    margin: 30px 0;
+}
+
+/*contents gifts & parties*/
+#content-gp a {
+     text-decoration: none;
+     color: #df5277;
+}
+
+#content-gp {
+    background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
+}
+
+.pt {
+     width: 60%;
+}
+
+/*contact us*/
+
+#visit-us a {
+    text-decoration: none;
+    color: #df5277;
+}
+
+#visit-us, #contact-us {
+    width: 35%;
+    float: left;
+    padding: 0 2%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text], textarea, input[type=submit] {
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 155px;
+    float: right;
+    color: #6a6969;
+}
+
+#macaron-contact {
+    width: 30%;
+    float: right;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+#macaron-contact img {
+    height: 80%;
+    width: 80%;
+}
+
+/*footer*/
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    background-color: #df5277;
+    color: white;
+    font-size: 12px;
+    font-family: Arial Helvetica sans-serif;
+}
+
+#footer, #copyright {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#footer div {
+    display: inline-block;
+    width: 33%;
+}
+
+#footer img {
+    margin:0 10px;
+}
+
+/*mobile formatting*/
+@media screen and (max-width: 627px) {
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    /* Header */
+    header img {
+        position: static;
+        transform: translate(75%, 0);
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        transform: translate(0, 0);
+        position: static;
+        margin: auto;
+    }
+
+    nav ul li {
+        margin: 10px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 2.5vw;
+    }
+    /*images below header*/
+    #visit-us, #contact-us, #contact-img img, .welcome img, #gifts img, #our-macarons img {
+        width: 100%;
+    }
+
+    /*gifts % parties*/
+
+    #content-gp, #content {
+        background: none;
+    }
+
+    #macarons img {
+        display: none;
+    }
+
+    /* Contact Section */
+
+
+    #macaron-contact {
+        display: none;
+    }
+
+    /* Footer */
+    footer {
+        clear: both;
+        font-size: 2.5vw;
+    }
+
+    #footer, #copyright {
+        padding-top: 5px;
+    }
+
+    #footer div {
+        padding: 5px 0;
+    }
+
+    #footer img {
+        height: 1em;
+        margin: 0 5px;
+    }
+}
